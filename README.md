@@ -1,5 +1,7 @@
 # AsyncQsort
-Asynchronous qsort implemented in JavaScript
+An implementation of asynchronous quick sort in Javascript
+
+[![Build Status](https://travis-ci.org/luin/qsort.png?branch=master)](https://travis-ci.org/luin/qsort)
 
 ## Install
 
