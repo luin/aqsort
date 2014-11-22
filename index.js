@@ -8,7 +8,7 @@ module.exports = function aqsort(arr, comp, callback) {
   var pivot = arr.splice(pivotIndex, 1)[0];
   var left = [];
   var right = [];
-  async.each(arr, function(item, next) {
+  async.eachSeries(arr, function(item, next) {
     comp(item, pivot, function(err, res) {
       if (err) {
         return next(err);
