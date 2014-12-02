@@ -1,6 +1,6 @@
 {
   "name": "aqsort",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Asynchronous qsort implemented in JavaScript",
   "main": "index.js",
   "scripts": {

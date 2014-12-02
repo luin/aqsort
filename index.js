@@ -24,7 +24,7 @@ module.exports = function aqsort(arr, comp, callback) {
     if (err) {
       return callback(err);
     }
-    async.parallel({
+    async.series({
       left: function(next) { aqsort(left, comp, next); },
       right: function(next) { aqsort(right, comp, next); }
     }, function(err, res) {
